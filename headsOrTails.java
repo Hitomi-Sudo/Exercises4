@@ -1,6 +1,7 @@
 package HoT;
 
 import java.util.Random;
+import java.util.Scanner;
 
 public class headsOrTails {
 	public static void main(String[] args){
@@ -8,7 +9,12 @@ public class headsOrTails {
 		int h=0, t=0;
 
 		Random random = new Random();
+		Scanner s = new Scanner(System.in);
 
+		System.out.println("Who are you?");
+		System.out.print("> ");
+		String name = s.next();
+		System.out.println("Hello, "+name+"!");
 		System.out.println("Tossing a coin...");
 
 		for(int i=1;i<=3;i++) {
