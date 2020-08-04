@@ -24,5 +24,8 @@ public class headsOrTails {
 			}
 		}
 		System.out.println("Heads: "+h+", Tails: "+t);
+
+		if(h>t)System.out.println(name+" won");
+		else System.out.println(name+" lost");
 	}
 }
